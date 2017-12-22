@@ -13,7 +13,7 @@ Examples:
 |product|
 |apple phone|
 |sony tv|
-|Fila shoe|
+
 
 #Scenario: Product on stock2
 #Given I am able to access http://www.flipkart.com

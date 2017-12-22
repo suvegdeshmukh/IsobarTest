@@ -25,7 +25,7 @@ import reusable.Reporting;
 public class StepDefn {
 	private static WebDriver driver;
 	Reporting r;
-	@Before("@tag1")
+	@Before()
 	public void before(Scenario scenario)
 	{
 		driver = new ChromeDriver();
@@ -35,7 +35,7 @@ public class StepDefn {
 		
 	}
 	
-	@After
+	@After()
 	public void after()
 	{
 		r.screenshot();
