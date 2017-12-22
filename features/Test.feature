@@ -14,6 +14,7 @@ Examples:
 |product|
 |apple phone|
 |sony tv|
+|Puma shoes|
 
 #Scenario: Product on stock2
 #Given I am able to access http://www.flipkart.com
