@@ -3,7 +3,6 @@ This feature file deals with product search and add to cart.
 If a product is available in the web page, then it can be added to the cart.
 If a product is not available, then it can posted on request by mail.
 
-
 Scenario Outline: Product on stock
 Given I am able to access the http://www.flipkart.com
 When I search for a <product>
@@ -14,6 +13,7 @@ Examples:
 |product|
 |apple phone|
 |sony tv|
+|Fila shoe|
 
 #Scenario: Product on stock2
 #Given I am able to access http://www.flipkart.com
